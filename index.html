@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Employee pay system</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+        <div class="header">
+                Welcome to Rotovegas Airways employee pay system
+        </div>
+        <div class="logo">
+                <img src="images\setlogo.png" width="110px" height="110px">
+        </div>
+        <!--Form for user to input data -->
+        <form name="Employee" method="post">
+                <div class="Employee">
+                        <p>First Name: <br><input type="text" id="fname" placeholder="Please enter your first name" pattern="[A-Za-z]{1,}"
+                                /></p>
+                        <p>Last Name:<br><input type="text" id="lname" placeholder="Please enter your last name" pattern="[A-Za-z]{1,}"
+                                /></p>
+                        <p>Salary: <br><input type="text" id="pay" placeholder="0" pattern="[0-9]{1,}" /></p>
+                        <div class="button">
+                                <input type="submit" id="submit" value="Submit">
+                        </div>
+                        <!--Display box to return results -->
+                        <div class="box">
+                                First Name: <span id="name1"></span><br> Last Name: <span id="name2"></span><br> Salary:
+                                <span id="salary"></span><br>
+                        </div>
+                </div>
+        </form>
+        <div class="footer" Style="color:#FFFFFF">Copyright © 2017 &nbsp;&nbsp; Denneil Brooking (#10011845) &nbsp;&nbsp;&nbsp;<a>COMP5202 PartA_Part_3</a>&nbsp;&nbsp;&nbsp;
+                <a href="http://www.huffingtonpost.com/the-editors-of-live-and-invest-overseas/understanding-airlines-lo_b_9239104.html">Background Image from huffingtonpost</a>&nbsp;&nbsp;&nbsp;
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
